@@ -43,6 +43,7 @@ public class Ej1Ventana extends JFrame {
 	 * Create the frame.
 	 */
 	public Ej1Ventana() {
+		setTitle("Ejercicio 1 - Maven");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
